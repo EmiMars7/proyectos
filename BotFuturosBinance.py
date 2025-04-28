@@ -3,7 +3,7 @@
 """
 Bot de Futuros USD para el par SOL/USDT
 - Apalancamiento configurable (en este ejemplo, 10x)
-- Utiliza dos EMAs: rápida de 40 y lenta de 99, en un gráfico de velas de 1 minuto
+- Utiliza dos EMAs: rápida de 40 y lenta de 99, en un gráfico de velas de 5 minuto
 - Opera en LONG y SHORT, utilizando el 95% del capital disponible
 - Al abrir una posición, coloca un trailing stop del 1.0% (sin stop loss fijo)
 - Gestiona órdenes conflictivas y registra eventos en un archivo CSV
